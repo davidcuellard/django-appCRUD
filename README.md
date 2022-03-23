@@ -1,8 +1,8 @@
 # django-appCRUD
 
-A simple crud in django
+A simple crud in django following tutorial from Mundo Python
+https://www.youtube.com/channel/UCNdy_LQjD_ew3r5zEXOA0aQ
 
-Demo:
 
 Used:
 
@@ -15,6 +15,14 @@ Get Started:
 
 $ sudo pip install -r requirements.txt
 
-$ ./manage.py migrate
+To migrate:
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
 
-$ ./manage.py runserver
+To create superuser:
+
+$ python manage.py createsuperuser
+
+To runserver in localhost:8000 :
+
+$ python3 manage.py runserver
